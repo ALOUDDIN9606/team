@@ -28,7 +28,7 @@ export default {
         md: '728px',
         lg: '984px',
         xl: '1040px',
-        '2xl': '1180px',
+        '2xl': '1250px',
       },
       padding: "1rem"
     }
