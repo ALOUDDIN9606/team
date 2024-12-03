@@ -29,12 +29,17 @@ export const LINKS = [
     name: "Blog",
     path: "/blog",
   },
-  ,
   {
     id:7,
     name: "Contact us",
     path: "/contact",
   },
+  {
+    id:8,
+    name: "Login",
+    path: "/login",
+  }
+
 ]
 
 const Header = () => {
