@@ -1,5 +1,7 @@
 import React from 'react'
 import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin  } from "react-icons/fa";
+import logo1 from "../../assets/Logo (3).svg"
+
 
 
 const Footer = () => {
@@ -8,7 +10,7 @@ const Footer = () => {
       <footer className="container">
           <div className="w-full mx-auto max-w-screen-xl py-4 md:flex md:items-center md:justify-between">
               <div className="flex items-center gap-6">
-                  <img className='h-full' src="src/assets/Logo (3).svg" alt="" /> 
+                  <img className='h-full' src={logo1} alt="" /> 
                   <span className="text-[16px] text-black sm:text-center dark:text-gray-400">© 2021 Finsweet</span>
               </div>
               <ul className="flex flex-wrap gap-6 text-[21px] items-center mt-3 text-sm font-medium text-black dark:text-black sm:mt-0">

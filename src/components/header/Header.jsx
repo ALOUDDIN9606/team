@@ -1,5 +1,7 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
+import logo from "../../assets/Logo (2).svg"
+
 
 export const LINKS = [
   {
@@ -42,7 +44,7 @@ const Header = () => {
     <header id='header' className='bg-blue-950 border-b-[1px] border-b-slate-600 flex flex-wrap'>
         <nav className='container py-6 flex flex-wrap justify-between'>
               <div className='h-8'>
-                 <a href="#"><img className='h-full' src="src/assets/Logo (2).svg" alt="" /></a> 
+                 <a href="#"><img className='h-full' src={logo} alt="" /></a> 
               </div>
               <div className='flex flex-wrap gap-10'>
                 {
