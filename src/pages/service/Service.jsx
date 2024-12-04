@@ -1,5 +1,9 @@
 import React from 'react'
-// import img1 from 'src/assets/img1'
+import img1 from '../../assets/img1.png'
+import img2 from '../../assets/img2.png'
+import img3 from '../../assets/img3.png'
+import img4 from '../../assets/img4.png'
+import img5 from '../../assets/img5.png'
 const Service = () => {
   return (
     <div>
@@ -158,7 +162,7 @@ const Service = () => {
 
     <div class="box flex flex-col md:flex-row-reverse items-center gap-10 lg:gap-16">
       <div class="box_media w-full h-80 md:w-6/12 lg:h-[400px]">
-        <img src="src/assets/img1.png" alt="Digitalization" />
+        <img src={img1} alt="Digitalization" />
       </div>
       <div class="box_content flex-1 flex flex-col gap-6">
         <h2 class="text-2xl font-semibold">Best in class tech support for your company. We become your tech backbone </h2>
@@ -174,7 +178,7 @@ const Service = () => {
 
        <div class="box flex flex-col md:flex-row items-center gap-10 lg:gap-16">
       <div class="box_media w-full h-80 md:w-6/12 lg:h-[400px]">
-        <img src="src/assets/img2.png" alt="Business Strategy" />
+        <img src={img2} alt="Business Strategy" />
       </div>
       <div class="box_content flex-1 flex flex-col gap-6">
         <h2 class="text-2xl font-semibold">Bring your ideas to reality with certified team of developers, working with latest technologies </h2>
@@ -200,7 +204,7 @@ const Service = () => {
 
       <div class="box flex flex-col md:flex-row-reverse items-center gap-10 lg:gap-16">
       <div class="box_media w-full h-80 md:w-6/12 lg:h-[400px]">
-        <img src="src/assets/img3.png" alt="Artificial Intelligence" />
+        <img src={img3} alt="Artificial Intelligence" />
       </div>
       <div class="box_content flex-1 flex flex-col gap-6">
         <h2 class="text-2xl font-semibold">We help you deploy, manage and secure your application on leading web services</h2>
@@ -215,7 +219,7 @@ const Service = () => {
      
     <div class="box flex flex-col md:flex-row items-center gap-10 lg:gap-16">
       <div class="box_media w-full h-80 md:w-6/12 lg:h-[400px]">
-        <img src="src/assets/img4.png" alt="Risk Assessment" />
+        <img src={img4} alt="Risk Assessment" />
       </div>
       <div class="box_content flex-1 flex flex-col gap-6">
         <h2 class="text-2xl font-semibold">Get advice from world class professionals </h2>
@@ -234,7 +238,7 @@ const Service = () => {
     {/*  */}
     <div class="box flex flex-col md:flex-row-reverse items-center gap-10 lg:gap-16">
       <div class="box_media w-full h-full md:w-6/12 ">
-        <img src="src/assets/img5.png" alt="Smart Contracts" />
+        <img src={img5} alt="Smart Contracts" />
       </div>
       <div class="box_content flex-1 flex flex-col gap-6">
         <h2 class="text-2xl font-semibold">We want to get local identification in every corner of the world in this era of global citizenship.</h2>
