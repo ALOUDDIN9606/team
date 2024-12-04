@@ -9,6 +9,7 @@ import Company from "../pages/company/Company";
 import Career from "../pages/career/Career";
 import Blog from "../pages/blog/Blog";
 import Contact from "../pages/contact_us/Contact";
+import Error from "../pages/error-layout";
 
 const Router = () => {
   return (
@@ -22,6 +23,8 @@ const Router = () => {
         <Route path="/contact" element={<Contact />} />
         <Route path="*" element={<NotFound />} />
       </Route>
+      <Route path="*" element={<Error />} />
+
       <Route path="/login" element={<Login />} />
     </Routes>
   );
