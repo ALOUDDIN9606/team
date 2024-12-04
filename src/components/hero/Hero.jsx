@@ -1,5 +1,6 @@
 import React from 'react'
 import { BsArrowRight } from "react-icons/bs";
+import rasm from "../../assets/Header Image.png"
 
 
 const Hero = () => {
@@ -15,7 +16,7 @@ const Hero = () => {
                         <button type="button" class="text-white flex items-center gap-2 text-[17px] bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium px-12 py-5 text-center me-2 mb-2">Request Quote <BsArrowRight/></button>
                     </div>
                     <div className="w-[563px] h-[632px]">
-                        <img className='h-full' src="src/assets/Header Image.png" alt="" />
+                        <img className='h-full' src={rasm} alt="" />
                     </div>
                 </div>
                 <div className="flex flex-wrap justify-between py-6">
