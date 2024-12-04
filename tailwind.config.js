@@ -31,6 +31,31 @@ export default {
             padding: "1rem",
         },
     },
+    colors:{
+      ...colors,
+      primary: "crimson",
+      lorem: "#0f0",
+    },
+    fontFamily:{
+      "edu": ["Edu"],
+      "dancing": ["Dancing", "sans-serif"],
+    },
+    container:{
+      center: true,
+      screens: {
+        sm: '600px',
+        md: '728px',
+        lg: '984px',
+        xl: '1040px',
+        '2xl': '1250px',
+      },
+      padding: "1rem"
+    }
+  },
+  darkMode: "class",
+  plugins: [],
+}
+
     darkMode: "class",
     plugins: [],
 };
