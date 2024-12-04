@@ -4,7 +4,7 @@ import Image2 from "../../assets/company2.svg";
 import Image3 from "../../assets/company3.svg";
 import Image5 from "../../assets/Shape1.svg";
 import Image6 from "../../assets/Shapes.svg";
-import Image11 from "../../assets/Logo11.svg";
+import Image11 from "../../assets/logo11.svg";
 import Image22 from "../../assets/Logo22.svg";
 import Image33 from "../../assets/Logo33.svg";
 import Image44 from "../../assets/Logo44.svg";
