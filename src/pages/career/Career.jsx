@@ -1,5 +1,5 @@
 import React from 'react';
-
+import img from '../../assets/img.png'
 const Career = () => {
   return (
     <div className="flex flex-col items-center text-center px-4 py-20 md:py-28">
@@ -25,7 +25,7 @@ const Career = () => {
           className="text-[8rem] md:text-[12rem] font-black text-transparent bg-clip-text bg-center bg-cover bg-no-repeat"
         >
           <div className="box_media w-full">
-            <img src="src/assets/img.png" alt="" className="object-cover w-full h-full" />
+            <img src={img} alt="" className="object-cover w-full h-full" />
           </div>
           Careers
         </h1>
