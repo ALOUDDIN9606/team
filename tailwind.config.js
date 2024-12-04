@@ -51,11 +51,4 @@ export default {
       },
       padding: "1rem"
     }
-  },
-  darkMode: "class",
-  plugins: [],
-}
-
-    darkMode: "class",
-    plugins: [],
-};
+  }
