@@ -1,5 +1,37 @@
 import React from 'react'
 import { BsArrowRight } from "react-icons/bs";
+import rasm from "../../assets/Header Image.png"
+import rasm2 from "../../assets/Logo (1).png"
+import rasm3 from "../../assets/Logo (2).png"
+import rasm4 from "../../assets/Logo (3).png"
+import rasm5 from "../../assets/Logo (4).png"
+import rasm6 from "../../assets/Logo (5).png"
+
+import image1 from "../../assets/Image 1.png"
+import image2 from "../../assets/Image 2.png"
+import image3 from "../../assets/Image 3.png"
+
+import group1 from "../../assets/Group 1749.png"
+import group2 from "../../assets/Group 1755.png"
+import group3 from "../../assets/Group 1855.png"
+
+import icon1 from "../../assets/Icon Div.png"
+import icon2 from "../../assets/Icon Div (1).png"
+import icon3 from "../../assets/Icon Div (2).png"
+import icon4 from "../../assets/Icon Div (3).png"
+import icon5 from "../../assets/Icon Div (4).png"
+import icon6 from "../../assets/Icon Div (5).png"
+
+import fon1 from "../../assets/Image 1 (1).png"
+import fon2 from "../../assets/Image 2 (1).png"
+import fon3 from "../../assets/Image 3 (1).png"
+import fon4 from "../../assets/Logo (6).png"
+
+import image4 from "../../assets/Image (8).png"
+import image5 from "../../assets/Image (9).png"
+
+
+
 
 
 const Hero = () => {
@@ -15,7 +47,7 @@ const Hero = () => {
                         <button type="button" class="text-white flex items-center gap-2 text-[17px] bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium px-12 py-5 text-center me-2 mb-2">Request Quote <BsArrowRight/></button>
                     </div>
                     <div className="w-[563px] h-[632px]">
-                        <img className='h-full' src="src/assets/Header Image.png" alt="" />
+                        <img className='h-full' src={rasm} alt="" />
                     </div>
                 </div>
                 <div className="flex flex-wrap justify-between py-6">
@@ -25,19 +57,19 @@ const Hero = () => {
                     </div>
                     <div className='flex flex-wrap justify-between w-[80%]'>
                         <div className="">
-                            <img className='h-full' src="src/assets/Logo (1).png" alt="" /> 
+                            <img className='h-full' src={rasm2} alt="" /> 
                         </div>
                         <div className="">
-                            <img className='h-full' src="src/assets/Logo (2).png" alt="" /> 
+                            <img className='h-full' src={rasm3} alt="" />  
                         </div>
                         <div className="">
-                            <img className='h-full' src="src/assets/Logo (3).png" alt="" /> 
+                            <img className='h-full' src={rasm4} alt="" />  
                         </div>
                         <div className="">
-                            <img className='h-full' src="src/assets/Logo (4).png" alt="" /> 
+                            <img className='h-full' src={rasm5} alt="" />  
                         </div>
                         <div className="">
-                            <img className='h-full' src="src/assets/Logo (5).png" alt="" /> 
+                            <img className='h-full' src={rasm6} alt="" /> 
                         </div>
                     </div>
                 </div>
@@ -56,9 +88,9 @@ const Hero = () => {
                     </div>
                 </div>
                 <div className='grid grid-cols-3 gap-3'>
-                    <img className='h-[446px]' src="src/assets/Image 1.png" alt="" />
-                    <img className='h-[446px]' src="src/assets/Image 2.png" alt="" />
-                    <img className='h-[446px]' src="src/assets/Image 3.png" alt="" />
+                    <img className='h-[446px]' src={image1} alt="" />
+                    <img className='h-[446px]' src={image2} alt="" />
+                    <img className='h-[446px]' src={image3} alt="" />
                 </div>
                 <div className='flex  flex-wrap items-center justify-between w-full'>
                     <div className='flex flex-wrap gap-20'>
@@ -130,7 +162,7 @@ const Hero = () => {
                 </div>
                 <div className='grid grid-cols-3 gap-6'>
                     <div className='bg-white p-10 flex flex-wrap flex-col gap-6'>
-                        <img className='w-14' src="src/assets/Group 1749.png" alt="" />
+                        <img className='w-14' src={group1} alt="" />
                         <div>
                             <p className='text-[21px] font-bold'>Technical support</p>
                             <p className='text-[17px]'>We aim to attain the greatest satisfaction for our clients and be one of the prominent names when it comes to world-class service</p>
@@ -138,7 +170,7 @@ const Hero = () => {
                         <a className='flex items-center gap-4 text-red-700 text-[18px]' href="#">Read about us <BsArrowRight/></a>
                     </div>
                     <div className='bg-white p-10 flex flex-wrap flex-col gap-6'>
-                        <img className='w-14' src="src/assets/Group 1755.png" alt="" />
+                        <img className='w-14' src={group2} alt="" />
                         <div>
                             <p className='text-[21px] font-bold'>Technical support</p>
                             <p className='text-[17px]'>We aim to attain the greatest satisfaction for our clients and be one of the prominent names when it comes to world-class service</p>
@@ -146,7 +178,7 @@ const Hero = () => {
                         <a className='flex items-center gap-4 text-red-700 text-[18px]' href="#">Read about us <BsArrowRight/></a>
                     </div>
                     <div className='bg-white p-10 flex flex-wrap flex-col gap-6'>
-                        <img className='w-14' src="src/assets/Group 1855.png" alt="" />
+                        <img className='w-14' src={group3} alt="" />
                         <div>
                             <p className='text-[21px] font-bold'>Technical support</p>
                             <p className='text-[17px]'>We aim to attain the greatest satisfaction for our clients and be one of the prominent names when it comes to world-class service</p>
@@ -167,42 +199,42 @@ const Hero = () => {
                 </div>
                 <div className='grid grid-cols-3 gap-10'>
                     <div className='border flex flex-wrap gap-6 items-start p-8'>
-                        <img src="src/assets/Icon Div.png" alt="" />
+                        <img src={icon1} alt="" />
                         <div className='w-[70%]'>
                             <p className='font-bold'>Discover</p>
                             <p>We aim to attain the greatest satisfaction for our clients and be one of the prominent.</p>
                         </div>
                     </div>
                     <div className='border flex flex-wrap gap-6 items-start p-8'>
-                        <img src="src/assets/Icon Div.png" alt="" />
+                        <img src={icon2} alt="" />
                         <div className='w-[70%]'>
                             <p className='font-bold'>Discover</p>
                             <p>We aim to attain the greatest satisfaction for our clients and be one of the prominent.</p>
                         </div>
                     </div>
                     <div className='border flex flex-wrap gap-6 items-start p-8'>
-                        <img src="src/assets/Icon Div (1).png" alt="" />
+                        <img src={icon3} alt="" />
                         <div className='w-[70%]'>
                             <p className='font-bold'>Discover</p>
                             <p>We aim to attain the greatest satisfaction for our clients and be one of the prominent.</p>
                         </div>
                     </div>
                     <div className='border flex flex-wrap gap-6 items-start p-8'>
-                        <img src="src/assets/Icon Div (2).png" alt="" />
+                        <img src={icon4} alt="" />
                         <div className='w-[70%]'>
                             <p className='font-bold'>Discover</p>
                             <p>We aim to attain the greatest satisfaction for our clients and be one of the prominent.</p>
                         </div>
                     </div>
                     <div className='border flex flex-wrap gap-6 items-start p-8'>
-                        <img src="src/assets/Icon Div (3).png" alt="" />
+                        <img src={icon5} alt="" />
                         <div className='w-[70%]'>
                             <p className='font-bold'>Discover</p>
                             <p>We aim to attain the greatest satisfaction for our clients and be one of the prominent.</p>
                         </div>
                     </div>
                     <div className='border flex flex-wrap gap-6 items-start p-8'>
-                        <img src="src/assets/Icon Div (4).png" alt="" />
+                        <img src={icon6} alt="" />
                         <div className='w-[70%]'>
                             <p className='font-bold'>Discover</p>
                             <p>We aim to attain the greatest satisfaction for our clients and be one of the prominent.</p>
@@ -219,9 +251,9 @@ const Hero = () => {
                     <p className='text-[18px] font-bold'>Transform your idea into reality with finsweet</p>
                     <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
                     <div className='flex flex-wrap gap-4'>
-                        <img src="src/assets/Image 1 (1).png" alt="" />
-                        <img src="src/assets/Image 2 (1).png" alt="" />
-                        <img src="src/assets/Image 3 (1).png" alt="" />
+                        <img src={fon1} alt="" />
+                        <img src={fon2} alt="" />
+                        <img src={fon3} alt="" />
                     </div>
                     <div>
                         <p className='font-bold'>30+ Customer Reviews</p>
@@ -237,7 +269,7 @@ const Hero = () => {
                                 <p>Director, Company</p>
                             </div>
                         </div>
-                        <img className='w-36 h-10' src="src/assets/Logo (6).png" alt="" />
+                        <img className='w-36 h-10' src={fon4} alt="" />
                     </div>
                 </div>
             </div>
@@ -251,7 +283,7 @@ const Hero = () => {
                 <div className='grid grid-cols-2 gap-8'>
                 <div className='flex flex-wrap items-center'>
                         <div className='w-[40%] h-full'>
-                            <img className='h-full' src="src/assets/Image (8).png" alt="" />   
+                            <img className='h-full' src={image4} alt="" />   
                         </div>
                         <div className='p-6 w-[60%] flex flex-wrap gap-3 bg-white'>
                             <p className='text-slate-500'>Jan 19, 2021</p>
@@ -261,7 +293,7 @@ const Hero = () => {
                     </div>
                     <div className='flex flex-wrap items-center'>
                         <div className='w-[40%] h-full'>
-                            <img className='h-full' src="src/assets/Image (9).png" alt="" />   
+                            <img className='h-full' src={image5} alt="" />   
                         </div>
                         <div className='p-6 w-[60%] flex flex-wrap gap-3 bg-white'>
                             <p className='text-slate-500'>Jan 19, 2021</p>
