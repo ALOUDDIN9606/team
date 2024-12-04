@@ -251,6 +251,20 @@ const Service = () => {
 
 
     {/*  */}
+    <div className='py-20'>
+            <div className='container'>
+                <div className='bg-blue-500 text-white flex flex-wrap items-center justify-between p-28'>
+                    <div className='w-[50%] flex flex-wrap gap-4'>
+                        <p>NEWSLETTER</p>
+                        <p className='text-[40px] font-bold'>Subscribe our News Letter
+                        to get Latest Updates.</p>
+                    </div>
+                    <form className='w-[40%]' action="#">
+                        <input className='w-full px-4 py-4 text-black' type="text" name="" placeholder='Paresh@Pixeto.com'/>
+                    </form>
+                </div>
+            </div>
+      </div>
 
 
 

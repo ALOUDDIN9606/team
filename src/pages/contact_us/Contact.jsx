@@ -4,7 +4,6 @@ const Contact = () => {
   return (
     <div>
 
-  
     <div class="contact py-28 grid lg:grid-cols-2 gap-x-24 gap-y-10 lg:gap-y-16 container mx-auto px-4">
    
       <div class="area_header mb-0 order-1">
@@ -78,7 +77,10 @@ const Contact = () => {
           class="w-full aspect-video"
         ></iframe>
       </div>
+
+         
     </div>
+
     </div>
   )
 }
