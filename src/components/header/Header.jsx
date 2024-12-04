@@ -1,5 +1,5 @@
 import React from 'react'
-import { NavLink, useLocation } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 
 export const LINKS = [
   {
@@ -30,17 +30,6 @@ export const LINKS = [
   }
   
 ]
-// ,
-// {
-//   id:6,
-//   name: "Blog",
-//   path: "/blog",
-// },
-// {
-//   id:7,
-//   name: "Contact us",
-//   path: "/contact",
-// },
 
 const Header = () => {
   return (
